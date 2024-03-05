@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> normal file for render in server </title>
+</head>
+<body>
+    <!-- using text from server (locals always defined and text is undefined) , using locals alaways prevent( errors and data Leak) -->
+    <h1>hello guiz <%=locals.text ||'error in h1 tag'%></h1> 
+</body>
+</html>
