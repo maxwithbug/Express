@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- npx tailwindcss -i ./src/input.css -o ./frontEnd/style.css --watch -->
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        input::placeholder {
+            padding-left: 8px;
+            color: rgb(195, 194, 194) ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="h-[100vh] w-[100%] flex content-center justify-center items-center ">
+        <form action=""class=" bg-white h-[600px] w-[500px] flex flex-col gap-y-[20px] justify-center items-center rounded-[4%] shadow-md ">
+            <h1 class="text-[30px] font-semibold">Instagram SignUp</h1>
+            <div>
+                <label for="name" class="block text-sm font-bold ">Name</label>
+                <input type="text" id="name" class="h-[35px] w-[400px] border border-gray-200 rounded-[4px]" placeholder="Enter your name" >
+            </div>     
+            <div>
+                <label for="Username" class="block text-sm font-bold ">Username</label>
+                <input type="text" id="Username" class="h-[35px] w-[400px] border border-gray-200 rounded-[4px]" placeholder="Enter your username" >
+            </div>     
+            <div>
+                <label for="email" class="block text-sm font-bold ">Email</label>
+                <input type="text" id="email" class="h-[35px] w-[400px] border border-gray-200 rounded-[4px]" placeholder="Enter your email" >
+            </div>     
+            <div>
+                <label for="Password" class="block text-sm font-bold ">Password</label>
+                <input type="text" id="Password" class="h-[35px] w-[400px] border border-gray-200 rounded-[4px]" placeholder="Enter your password" >
+            </div>     
+            <div>
+                <label for="bio" class="block text-sm font-bold ">bio</label>
+                <input type="text" id="bio" class="h-[35px] w-[400px] border border-gray-200 rounded-[4px]" placeholder="Enter your bio" >
+            </div>    
+            <button class="h-[35px] w-[400px] rounded-[4px] bg-indigo-600 text-white">SignUp</button>
+            <div class="flex justify-center items-center w-[100%] gap-9 text-gray-500 ">
+                <button>forget password? </button>
+                <button>Login</button>
+            </div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

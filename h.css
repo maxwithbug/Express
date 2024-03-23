@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&display=swap');
+   *{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    
+
+
+.nav-bar{
+    
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 3px 10px #e1e0e0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar>img {
+    height: 30px;
+    width: 30px;
+    margin-left: 150px;
+    
+}
+
+
+nav img{
+    height:100px;
+    width: 110px;
+    margin-left: 150px;
+}
+#gmail{
+    margin-left: 7px;
+}
+.flexbutton{
+    display: flex;
+    width: 400px;
+    gap: 30px;
+    margin-left: 830px; 
+    
+    
+}
+#button-1{
+    
+    border: none;
+    background: none;
+    color:#1b72e8;
+    width: 100px;
+    height: 50px;
+}
+#button-2{
+    
+    
+    justify-content: center;
+    color: #1b72e8;
+    border: 1px solid rgb(225, 222, 222);
+    background: none;
+    height: 50px;
+    width: 100px;
+    
+    
+    
+}
+#button-3{
+    
+    
+    justify-content: center;
+    background-color: #1b72e8;
+   color: #ffffff;
+   height: 50px;
+   width: 180px;
+   border: #164ea6;
+    
+    
+    
+}
+#button-1,#button-2,#button-3{
+    font-size: 14px;
+    border-radius: 5px;
+    height: 40px;
+}
+.content-1{
+    height:200px;
+    width: 450px;
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 140px;
+    margin-left: 200px;
+}
+
+.content-2{
+   
+    width: 500px;
+    padding: 0px;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.button{
+    margin-left: 200px;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+   
+}
+
+#button4{
+    height: 45px;
+    width: 180px;
+    background-color: #1b72e8;
+    color: #ffffff;
+    border-radius: 4px;
+    border: #164ea6;
+}
+#button5{
+    height: 45px;
+    width: 100px;
+    color: #1b72e8;
+    background: none;
+    border: none;
+}
+.floatleft{
+    float: left;
+    
+    
+}
+.floatright{
+    float: right;
+   
+}
+section>img{
+    height: 600px;
+   
+}
+
+#button-1:hover{
+    background-color: #f4f8fd;
+}
+
+
+#button5:hover{
+    background-color: #f4f8fd;
+}
+
+#button-3:hover{
+    background-color: #164ea6;
+}
+#button4:hover{
+    background-color: #164ea6;
+}
+#button-2:hover{
+    background-color: #f0f3f4;
+}

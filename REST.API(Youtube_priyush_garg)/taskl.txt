@@ -1,0 +1,21 @@
+REST API - JSON
+
+
+GET /user - render a html documet 
+GET /api/user - list all user ( this is a good practice for making a hybride server for mobile and pc's)
+
+
+GET /api/user/1 - get the user with id 1
+GET /api/user/2 - get the user with id 2
+
+
+/** we are using the hard code data from (https://www.mockaroo.com/)
+
+POST/api/user - create useer 
+
+PATCH/api/user/id:1 - update useer with id 1
+DELETE/api/user/id:1 - delete the user with id 1
+
+
+ 
+
